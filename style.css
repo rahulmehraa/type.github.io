@@ -1,0 +1,572 @@
+html{
+    scroll-behavior: smooth;
+} 
+  
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+
+
+}
+a{
+    text-decoration: none;
+    
+}
+
+p{
+    font-family: cursive;
+    font-weight: 400;
+    font-size: 1.4rem;
+    color:#606060;
+}
+h2{
+    font-size: 0.9rem;
+    line-height: 1.6;
+    font-weight: 400;
+    word-spacing: 4px;
+}
+
+li{
+    list-style: none;
+   
+}
+
+a:hover{
+    text-decoration: none;
+    
+}
+
+.header{
+    width: 100%;
+    height: 100vh;
+    background-image: linear-gradient(rgba(0,168,255,0.3), rgba(0,168,255,0.3)),url(./Imagess/creative-869200_1920.jpg);
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    clip-path: polygon(100% 0%, 100% 75%, 50% 100%, 0 75%, 0 0);
+    position: relative;
+}
+
+/*
+.header :before{
+    content:"";
+    position: absolute;
+    top: 0%;
+    bottom: 0%;
+    left: 0;
+    right: 0;
+    opacity:0.05;
+    z-index: -1;
+    background: linear-gradient(to right, #1e5799 0%, #3ccdbb 0%, #16c9f6);
+
+
+}
+*/
+.navbar :before{
+    content:"";
+    position: absolute;
+    top: 0%;
+    bottom: 0%;
+    left: 0;
+    right: 0;
+    opacity:0.01;
+    z-index: -1;
+    background: linear-gradient(to right,rgba(0,168,255,0.3), rgba(0,168,255,0.3));
+    
+}
+
+.nav-item a {
+    color: whitesmoke;
+    font-size: 20px;
+    font-weight: 500;
+    font-family: 'Staatliches', cursive;
+    justify-content: space-between;
+    margin: 0 20px;
+    
+    
+
+}
+.nav-item a:hover{
+    margin-left: 20px;
+    margin-right: 20px;
+}
+.navbar-brand{
+    color: whitesmoke;
+    font-size: 25px;
+    font-weight: 500;
+    font-family:  'Lobster', cursive;
+    justify-content: space-between;
+}
+.header-section{
+    width: 100%;
+    height: inherit;
+    text-align: center;
+    position: relative;
+
+}
+.center-div{
+    color: whitesmoke;
+    width: 100%;
+    height: auto;
+    position: absolute;
+    top: 30%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    -webkit-transform: translate(-50%, -50%);
+}
+.header-buttons a{
+    border: 1px solid whitesmoke;
+    font-size: 1.5rem;
+    font-weight: 400;
+    color: whitesmoke;
+    border-radius: 100px;
+    margin: 0 10px;
+    outline: none;
+    padding: 10px 55px;
+    text-align: center;
+    line-height: 3.0;
+}
+.header-buttons a:hover{
+    color:#50d1c0;
+    background: whitesmoke;
+    text-decoration: none;
+    box-shadow: 0 0 20px 0 rgba(0, 0, 0,0.3);
+
+}
+.center-div p{
+    font-size: 1.5rem;
+    padding: 20px 0 20px 0;
+    color: whitesmoke;
+}
+.row{
+    padding: 10px 0 20px 0;
+}
+.extra-div p{
+    font-size: 1.3rem;
+    padding: 10px 0 20px 0;
+   
+    
+}
+i{
+   color:  #2fccd0;
+}
+.benefits {
+    width: 100%;
+    height: auto;
+    margin: 100px 0;
+    text-align: center;
+}
+.extra-div{
+    background: white;
+    border: medium none;
+    padding: 50px!important;
+    border-radius: 3px;
+    transition:0.3s;
+    
+}
+.extra-div:hover{
+    box-shadow: 0 0 20px 0 rgba(0, 0, 0,0.3);
+    transform: translateY(-20px);
+}
+/********************What do we offer section starts********************************************/
+.services{
+    background: #f7f7f9;
+    padding: 50px 0;
+    margin-bottom: 50px;
+}
+.headings{
+    margin-bottom: 50px;
+}
+.headings h1{
+    font-size: 2.5rem;
+    font-weight: 600;
+    text-transform: uppercase;
+    
+}
+.name h1{
+    color: #2e2e2e;
+    font-size: 1.2rem;
+    font-weight: 600;
+    
+
+}
+.servicediv h2{
+    columns: #2e2e2e;
+    font-size: 1.5rem;
+    font-weight: bold;
+   
+    word-spacing: 4px;
+}
+.service-icons{
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    
+}
+.progress{
+    height: 0.6rem!important;
+    margin-bottom: 40px!important;
+}
+.numbers{
+    text-align: center;
+}
+.projectwork{
+    margin: 100px 0;
+}
+.projectwork h2{
+    font-size: 2rem;
+    text-align: center;
+    color: #2fccd0;
+}
+
+.pricing {
+    width: 100%;
+    height: 100vh;
+    font-weight: 600;
+    font-size: 1.5rem;
+    padding: 50px;
+    position: relative;
+}
+
+.pricing:before{
+    content:"";
+    position: absolute;
+    top: 0%;
+    bottom: 0%;
+    left: 0;
+    right: 0;
+    z-index: -1;
+    background: linear-gradient(160deg, #16c9f6 55%,#fff 0);
+
+
+}
+.money{
+    font-size: 2.4rem;
+    font-weight: 500;
+    font-family: sans-serif;
+    color: black;
+
+}
+.card{
+    transition:0.4s ease ;
+}
+.card-header{
+    font-size: 1.8rem;
+    font-weight: 700;
+    background: white !important;
+    word-spacing: 6px;
+
+}
+.card:hover .card-header{
+    color: #50d1c0;
+}
+.card-body{
+    padding: 30px 0 !important;
+}
+.card-body li{
+    margin: 10px 0;
+    font-weight: 400;
+    font-size: 1.5rem;
+    line-height: 1.4;
+    color: #606060;
+}
+.card-footer{
+    background: white!important;
+    margin: 10px 0!important;
+
+}
+.card-footer a{
+    border: 1px solid #50d1c0;
+    font-size: 1.5rem;
+    font-weight: 400;
+    
+    border-radius: 100px;
+    margin: 0 10px;
+    outline: none;
+    padding: 10px 55px;
+    text-align: center;
+    line-height: 3.0;
+
+}
+.card:hover .card-footer a{
+    color: whitesmoke;
+    background:#50d1c0;
+    text-decoration: none;
+    box-shadow: 0 0 20px 0 rgba(0, 0, 0,0.3);
+
+}
+.card:hover{
+    transform: translateY(-30px);
+    
+}
+.card:hover .money{
+    color: #50d1c0 ;
+}
+.feedback{
+    width: 100%;
+    height: 100vh;
+}
+
+.box{
+    text-align: center;
+    border: 1px solid rgba(0, 0, 0,0.1);
+    box-shadow: 0 5px 10px 0 rgba(0, 0, 0,0.3);
+    border-radius: 2px;
+    transition: 0.3s ease;
+
+}
+.box:hover{
+    background: #16c9f6;
+}
+.carousel-indicators{
+    position: absolute;
+    right: 0;
+    bottom: -60px!important;
+
+}
+.carousel-indicators li{
+    background: #16c9f6!important;
+}
+/*********************************how to give img a radius imp**************************/
+.box a{
+    position: relative;
+}
+.box a img{
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    margin-bottom: 40px;
+    
+}
+/*********************************how to give img a radius imp**************************/
+.box a:after{
+   
+    width: 40px;
+    height: 40px;
+    background: linear-gradient(to right, #1e5799 0%,#3ccdbb 0%,#16c9f6 100%);
+    color: white;
+    position: absolute;
+    top: 120%;
+    left: 70%;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  
+
+}
+.box h2{
+    font-size: 20px;
+    font-weight: 500;
+    color: #000;
+    margin-bottom: 10px;
+    
+}
+.box h5{
+    font-size: 13px;
+    font-weight: 400;
+    color: #666666;
+    margin-bottom: 20px;
+}
+.contactus{
+    width: 100%;
+    height: 100vh;
+    font-weight: 600;
+    font-size: 1.5rem;
+   
+    position: relative;
+}
+/*pseudo css*/
+
+.contactus:before{
+    content:"";
+    position: absolute;
+    top: 0%;
+    bottom: 0%;
+    left: 0;
+    right: 0;
+    z-index: -1;
+    background: linear-gradient(330deg, #16c9f6 55%,#fff 0);
+}
+/*advanced css*/
+
+.contactus:hover .button{
+    color: #16c9f6;
+}
+
+.form-button button {
+    border: 1px solid #50d1c0;
+    border-radius: 100px;
+    margin: 0 5px;
+    padding: 12px 35px;
+    outline: none;
+    color: #50d1c0;
+    font-size: 1rem;
+    font-weight: 400;
+    line-height: 1.4;
+    text-align: center;
+    background: transparent;
+}
+.making{
+    color: whitesmoke;
+    
+}
+.newsletter{
+    width: 100%;
+    height: 100vh;
+    margin: 80px auto;
+        
+}
+.news-input{
+    /*to give semicircle border from right side*/
+    border-radius:  100px 0 0 100px!important;
+
+    min-width: 130px;
+    min-width: 40px;
+       
+}
+.input-group-text {
+    /*to give semicircle border from left side*/
+    border-radius:  0 100px 100px 0 !important;
+
+    color:whitesmoke!important;
+    background: #5bc0de!important;
+   /* to increase the subscribe button height and width*/
+
+    min-width: 130px;
+    min-height:40px;
+}
+/*****************************************************footer section starts**************************************/
+.footersection{
+    width: 100%;
+    height: auto;
+    padding: 70px 0 20px 0;
+    background: #00abff;
+    position: relative;
+    
+}
+
+.footer-div p {
+    color: #fff;
+    font-size:1.2rem;
+}
+.news p {
+    color: #fff;
+    font-size:1.2rem;
+
+}
+
+.footer-in li a{
+    font-size:1.2rem;
+    line-height: 1.6;
+    font-weight: 600;
+    color: #fff;
+    text-transform: capitalize;
+    
+
+}
+.footer-in {
+    text-align: center;
+    
+}
+
+.footersection h3{
+    text-transform: uppercase;
+    color: #fff;
+    margin-bottom: 20px;
+    font-size: 1.2rem!important;
+    font-weight: 600;
+    text-shadow: 0 2px 5px rgba(0, 0, 0, 0.5);
+}
+
+.copyright {
+    text-align: center;
+    font-size: 0.9rem;
+    color: #fff
+}
+.newsletter {
+   margin-top: 300px!important;
+   background: linear-gradient(#16c9f6 55%,#fff 0);
+
+}
+.contactus{
+    margin-top: 50px!important;
+}
+#myBtn{
+    display:none;
+    position: fixed;
+    bottom: 20px;
+    right: 40px;
+    z-index: 99;
+    border: none;
+    color: whitesmoke;
+    background: #00abff;
+    padding: 10px;
+    border-radius: 10px;
+
+}
+#myBtn:hover{
+    background:#606060;
+}
+/*****************************************************footer section ends**************************************/
+
+/*****************************************************media queries********************************************/
+@media(max-width:768px)
+{
+    .nav-item 
+    {
+        text-align: center!important;
+
+    }
+    .pricing
+    {
+        height: auto;
+        margin-top: 50px;
+    }
+    .card-second
+    {
+        margin: 30px 0;
+
+
+    }
+   .head-ings
+   {
+       margin-top: 60px;
+
+   }
+   .contact-for
+   {
+       margin-top: 300px;
+   }
+   .news-letter
+   {
+       margin-top: 420px;
+
+   }
+   .eamil-holder
+   {
+       margin-top:-20px;
+   }
+   .subscribe-heading
+   {
+       font-size: 1.4rem!important;
+
+   }
+   .footer-in
+   {
+       text-align: left!important;
+       margin: 30px 0;
+
+   }
+
+}
+
+
+
+
+/*
+font-family: 'Lobster', cursive;
+font-family: 'Piedra', cursive;
+font-family: 'Staatliches', cursive;
+*/
